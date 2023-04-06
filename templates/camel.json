@@ -1,0 +1,8 @@
+{
+    "description": "Template used by Llama-LoRA.",
+    "prompt_input": "Below is a description of two people, Person A and Person B. Write a conversation between the two people.\n\n### Person A:\n{person_a}\n\n### Person B:\n{person_b}\n\n### Response:\n",
+    "prompt_no_b": "Below is a description of one person, Person A. Write a conversation between Person A and another unknown Person B.\n\n### Person A:\n{person_a}\n\n### Response:\n",
+    "prompt_no_a": "Below is a description of one person, Person A. Write a conversation between Person A and another unknown Person B.\n\n### Person A:\n{person_a}\n\n### Response:\n",
+    "prompt_no_a_and_b": "Below is a description of one person, Person A. Write a conversation between Person A and another unknown Person B.\n\n### Person A:\n{person_a}\n\n### Response:\n",
+    "response_split": "### Response:"    
+}

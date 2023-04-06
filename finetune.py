@@ -28,8 +28,8 @@ from utils.prompter import Prompter
 def train(
     # model/data params
     base_model: str = "",  # the only required argument
-    data_path: str = "yahma/alpaca-cleaned",
-    output_dir: str = "./lora-alpaca",
+    data_path: str = "./camel_data",
+    output_dir: str = "./lora-camel",
     # training hyperparams
     batch_size: int = 128,
     micro_batch_size: int = 4,
@@ -54,7 +54,7 @@ def train(
     wandb_watch: str = "",  # options: false | gradients | all
     wandb_log_model: str = "",  # options: false | true
     resume_from_checkpoint: str = None,  # either training checkpoint or final adapter
-    prompt_template_name: str = "alpaca",  # The prompt template to use, will default to alpaca.
+    prompt_template_name: str = "camel",  # The prompt template to use, will default to alpaca.
 ):
     if int(os.environ.get("LOCAL_RANK", 0)) == 0:
         print(
@@ -145,14 +145,14 @@ def train(
 
     def generate_and_tokenize_prompt(data_point):
         full_prompt = prompter.generate_prompt(
-            data_point["instruction"],
-            data_point["input"],
-            data_point["output"],
+            data_point["Person A"],
+            data_point["Person B"],
+            data_point["conversation"],
         )
         tokenized_full_prompt = tokenize(full_prompt)
         if not train_on_inputs:
             user_prompt = prompter.generate_prompt(
-                data_point["instruction"], data_point["input"]
+                data_point["Person A"], data_point["Person B"]
             )
             tokenized_user_prompt = tokenize(user_prompt, add_eos_token=False)
             user_prompt_len = len(tokenized_user_prompt["input_ids"])

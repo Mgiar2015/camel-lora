@@ -27,22 +27,25 @@ class Prompter(object):
 
     def generate_prompt(
         self,
-        instruction: str,
-        input: Union[None, str] = None,
-        label: Union[None, str] = None,
+        person_a: str,
+        person_b: Union[None, str] = None,
+        conversation: Union[None, str] = None,
     ) -> str:
         # returns the full prompt from instruction and optional input
         # if a label (=response, =output) is provided, it's also appended.
-        if input:
-            res = self.template["prompt_input"].format(
-                instruction=instruction, input=input
-            )
-        else:
-            res = self.template["prompt_no_input"].format(
-                instruction=instruction
-            )
-        if label:
-            res = f"{res}{label}"
+        # if input:
+        #     res = self.template["prompt_input"].format(
+        #         instruction=instruction, input=input
+        #     )
+        # else:
+        #     res = self.template["prompt_no_input"].format(
+        #         instruction=instruction
+        #     )
+        res = self.template["prompt_input"].format(
+            person_a=person_a,person_b=person_b
+        )
+        if conversation:
+            res = f"{res}{conversation}"
         if self._verbose:
             print(res)
         return res
