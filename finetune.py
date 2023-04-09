@@ -35,7 +35,7 @@ def train(
     micro_batch_size: int = 4,
     num_epochs: int = 3,
     learning_rate: float = 3e-4,
-    cutoff_len: int = 256,
+    cutoff_len: int = 1500,
     val_set_size: int = 2000,
     # lora hyperparams
     lora_r: int = 8,
@@ -127,7 +127,7 @@ def train(
         result = tokenizer(
             prompt,
             truncation=True,
-            #max_length=cutoff_len,
+            max_length=cutoff_len,
             padding=False,
             return_tensors=None,
         )
@@ -138,9 +138,8 @@ def train(
         ):
             result["input_ids"].append(tokenizer.eos_token_id)
             result["attention_mask"].append(1)
-
         result["labels"] = result["input_ids"].copy()
-
+        #print(len(result["input_ids"]))
         return result
 
     def generate_and_tokenize_prompt(data_point):
