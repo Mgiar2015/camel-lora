@@ -1,11 +1,9 @@
 """
 A dedicated helper to manage templates and prompt building.
 """
-
 import json
 import os.path as osp
 from typing import Union
-
 
 class Prompter(object):
     __slots__ = ("template", "_verbose")
@@ -41,6 +39,7 @@ class Prompter(object):
         #     res = self.template["prompt_no_input"].format(
         #         instruction=instruction
         #     )
+
         res = self.template["prompt_input"].format(
             person_a=person_a,person_b=person_b
         )
