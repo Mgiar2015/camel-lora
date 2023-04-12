@@ -85,8 +85,9 @@ def main(
         model = torch.compile(model)
 
     def evaluate(
-        instruction,
-        input=None,
+        person_a,
+        person_b=None,
+        convo=True,
         temperature=0.1,
         top_p=0.75,
         top_k=40,
@@ -94,8 +95,10 @@ def main(
         max_new_tokens=128,
         stream_output=False,
         **kwargs,
-    ):
-        prompt = prompter.generate_prompt(instruction, input)
+    ):  
+        prompt = prompter.generate_prompt(person_a, person_b)
+        if convo == True:
+            prompt += "A: "
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
         generation_config = GenerationConfig(
@@ -163,10 +166,13 @@ def main(
         inputs=[
             gr.components.Textbox(
                 lines=2,
-                label="Instruction",
-                placeholder="Tell me about alpacas.",
+                label="Person A personal information",
+                placeholder="This person likes coffee, walking dog in the morning and is good at Jujutsu.",
             ),
-            gr.components.Textbox(lines=2, label="Input", placeholder="none"),
+            gr.components.Textbox(
+                lines=2, 
+                label="Person B personal information", 
+                placeholder="This person loves going to Trader Joe's, enjoy oil painting but bad at it. She also love the movie Matrix, especially the main character."),
             gr.components.Slider(
                 minimum=0, maximum=1, value=0.1, label="Temperature"
             ),
