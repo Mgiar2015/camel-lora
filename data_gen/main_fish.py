@@ -45,7 +45,18 @@ def parse_conversation(conversation):
             utterance += line + ' '
     if speaker != '' and utterance != '':
         parsed.append({'speaker': speaker, 'utterance': utterance.strip()})
-    return parsed
+
+    # if consecutive speakers are the same, merge their utterances
+    parsed = [{'speaker': 'B', 'utterance': "it's possible but given that kind of track record"}, {'speaker': 'B', 'utterance': "especially knowing what the flu is it's a rapidly mutating virus how can they how can they prepare a vaccine for that"}, {'speaker': 'A', 'utterance': "that's true [sigh] i don't know i'm just a little bit paranoid this this uh winter just want to make sure that i"}]
+    merged = []
+    for i, utterance in enumerate(parsed):
+        if i == 0:
+            merged.append(utterance)
+        elif utterance['speaker'] == merged[-1]['speaker']:
+            merged[-1]['utterance'] += ' ' + utterance['utterance']
+        else:
+            merged.append(utterance)
+    return merged
 
 def get_entries_from_conversation(entry,persona_perm=1, history_limit=3):     
     entries = []
@@ -91,7 +102,7 @@ def get_personachat_dataset():
         data = json.load(f)    
     entries = []        
     for entry in data:         
-        entries.extend(get_entries_from_conversation(entry))     
+        entries.extend(get_entries_from_conversation(entry))  
         #save as a json file called personachat.json, format the json file     
     print("new dataset size: ", len(entries))     
     with open("fisher_new.json", "w") as f:         
