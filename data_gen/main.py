@@ -4,7 +4,8 @@ import requests
 import os 
 import random  
 PERSONACHAT_URL = "https://s3.amazonaws.com/datasets.huggingface.co/personachat/personachat_self_original.json"  
-instruction_one_persona = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history. Some information on the persona of speaker B is provided below and can help guide the conversation." instruction_no_persona = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history."  
+instruction_one_persona = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history. Some information on the persona of speaker B is provided below and can help guide the conversation." 
+instruction_no_persona = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history."  
 
 def get_history_string(history,history_limit=20):     
     history_labeled = []     
