@@ -45,11 +45,11 @@ def main(
             torch_dtype=torch.float16,
             device_map="auto",
         )
-        model = PeftModel.from_pretrained(
-            model,
-            lora_weights,
-            torch_dtype=torch.float16,
-        )
+        # model = PeftModel.from_pretrained(
+        #     model,
+        #     lora_weights,
+        #     torch_dtype=torch.float16,
+        # )
     elif device == "mps":
         model = LlamaForCausalLM.from_pretrained(
             base_model,
@@ -85,21 +85,21 @@ def main(
         model = torch.compile(model)
 
     def evaluate(
-        person_a,
-        person_b=None,
+        instruction,
+        input=None,
         convo=True,
-        temperature=0.1,
-        top_p=0.75,
-        top_k=40,
-        num_beams=4,
+        temperature=0.9,
+        top_p=0.9,
+        top_k=2,
+        num_beams=1,
         max_new_tokens=128,
         stream_output=False,
         **kwargs,
     ):
-        prompt = prompter.generate_prompt(person_a, person_b)
-        print(prompt)
-        if convo:
-            prompt += "A: "
+        prompt = prompter.generate_prompt(instruction, input)
+        # if convo:
+        #     prompt += "A: Hi, hi, how are you."
+        # print(prompt)
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
         generation_config = GenerationConfig(
@@ -167,25 +167,25 @@ def main(
         inputs=[
             gr.components.Textbox(
                 lines=2,
-                label="Person A personal information",
-                placeholder="This person likes coffee, walking dog in the morning and is good at Jujutsu.",
+                label="Instruction",
+                placeholder="",
             ),
             gr.components.Textbox(
                 lines=2, 
-                label="Person B personal information", 
-                placeholder="This person loves going to Trader Joe's, enjoy oil painting but bad at it. She also love the movie Matrix, especially the main character."),
+                label="Input", 
+                placeholder=""),
             gr.components.Checkbox(label="Conversation"),
             gr.components.Slider(
-                minimum=0, maximum=1, value=0.1, label="Temperature"
+                minimum=0, maximum=1, value=0.9, label="Temperature"
             ),
             gr.components.Slider(
-                minimum=0, maximum=1, value=0.75, label="Top p"
+                minimum=0, maximum=1, value=0.9, label="Top p"
             ),
             gr.components.Slider(
-                minimum=0, maximum=100, step=1, value=40, label="Top k"
+                minimum=0, maximum=100, step=1, value=20, label="Top k"
             ),
             gr.components.Slider(
-                minimum=1, maximum=4, step=1, value=4, label="Beams"
+                minimum=1, maximum=4, step=1, value=1, label="Beams"
             ),
             gr.components.Slider(
                 minimum=1, maximum=2000, step=1, value=128, label="Max tokens"
@@ -198,8 +198,8 @@ def main(
                 label="Output",
             )
         ],
-        title="🦙🌲 Alpaca-LoRA",
-        description="Alpaca-LoRA is a 7B-parameter LLaMA model finetuned to follow instructions. It is trained on the [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) dataset and makes use of the Huggingface LLaMA implementation. For more information, please visit [the project's website](https://github.com/tloen/alpaca-lora).",  # noqa: E501
+        title="🦙🌲 Camel-LoRA",
+        description="Camel-LoRA is a 7B-parameter LLaMA model finetuned to engage in dialogue.",  # noqa: E501
     ).queue().launch(server_name="0.0.0.0", share=share_gradio)
     # Old testing code follows.
 
