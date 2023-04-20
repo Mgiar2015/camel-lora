@@ -47,7 +47,6 @@ def parse_conversation(conversation):
         parsed.append({'speaker': speaker, 'utterance': utterance.strip()})
 
     # if consecutive speakers are the same, merge their utterances
-    parsed = [{'speaker': 'B', 'utterance': "it's possible but given that kind of track record"}, {'speaker': 'B', 'utterance': "especially knowing what the flu is it's a rapidly mutating virus how can they how can they prepare a vaccine for that"}, {'speaker': 'A', 'utterance': "that's true [sigh] i don't know i'm just a little bit paranoid this this uh winter just want to make sure that i"}]
     merged = []
     for i, utterance in enumerate(parsed):
         if i == 0:
