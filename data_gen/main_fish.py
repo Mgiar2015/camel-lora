@@ -4,12 +4,12 @@ import requests
 import os 
 import random  
 PERSONACHAT_URL = "https://s3.amazonaws.com/datasets.huggingface.co/personachat/personachat_self_original.json"  
-instruction_one_persona_a = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history. Some information on the persona of speaker A is provided below and can help guide the conversation." 
-instruction_one_persona_b = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history. Some information on the persona of speaker B is provided below and can help guide the conversation."
-instruction_both_persona = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history. Some information on the persona of speaker A and B is provided below and can help guide the conversation."
-instruction_no_persona = "Generate the next utterence in the interesting and casual conversation between two speakers based on the provided conversation history."  
+instruction_one_persona_a = "Generate the next utterence in the interesting conversation between two speakers based on the history. Here's the persona of speaker A to guide the conversation." 
+instruction_one_persona_b = "Generate the next utterence in the interesting conversation between two speakers based on the history. Here's the persona of speaker B to guide the conversation."
+instruction_both_persona = "Generate the next utterence in the interesting conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation."
+instruction_no_persona = "Generate the next utterence in the interesting conversation between two speakers based on the history."  
 
-def get_history_string(history,history_limit=20):     
+def get_history_string(history,history_limit=15):     
     history_labeled = []     
     for j, utterance in enumerate(history):         
         if j % 2 == 0:             
@@ -18,7 +18,7 @@ def get_history_string(history,history_limit=20):
             history_labeled.append("B: " + utterance)     
         history = history_labeled[-history_limit:]     
         #concatenate the history spaces, there should be no leading space     
-    return  " ".join(history)  
+    return "\n".join(history)  
 
 def create_input_one_speaker(personality, history, person):     
     return "### Speaker "+person+" Persona: " + personality + "\n### Conversation History: " + history
@@ -65,7 +65,7 @@ def get_entries_from_conversation(entry,persona_perm=1, history_limit=3):
     history = []
     for utterence in conversation_split:
         mode =  random.random()
-        history_string = " ".join([utter['speaker']+": "+utter['utterance'] for utter in history])
+        history_string = "\n".join([utter['speaker']+": "+utter['utterance'] for utter in history][-history_limit:])
         if mode < 0.25:                 
             instruction = instruction_no_persona                 
             input_string = create_input_no_speaker(history_string)             
