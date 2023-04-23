@@ -1,11 +1,9 @@
 """
 A dedicated helper to manage templates and prompt building.
 """
-
 import json
 import os.path as osp
 from typing import Union
-
 
 class Prompter(object):
     __slots__ = ("template", "_verbose")
@@ -14,7 +12,7 @@ class Prompter(object):
         self._verbose = verbose
         if not template_name:
             # Enforce the default here, so the constructor can be called with '' and will not break.
-            template_name = "alpaca"
+            template_name = "camel"
         file_name = osp.join("templates", f"{template_name}.json")
         if not osp.exists(file_name):
             raise ValueError(f"Can't read {file_name}")
@@ -43,8 +41,6 @@ class Prompter(object):
             )
         if label:
             res = f"{res}{label}"
-        if self._verbose:
-            print(res)
         return res
 
     def get_response(self, output: str) -> str:
