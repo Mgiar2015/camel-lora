@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .chat-box {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      background-color: #f1f1f1;
+      max-width: 80%;
+    }
+    .person-a {
+      align-self: flex-start;
+    }
+    .person-b {
+      align-self: flex-end;
+      background-color: #d1e7ff;
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const data = ['Person A: So, have you watched any movies recently?', 'Person B: Yes, I recently watched a great documentary on Netflix about the space program. It was really interesting!', "Person A: Oh wow, I'm a big fan of space exploration. I'm actually studying aerospace engineering. What did you think of the documentary?", 'Person B: I loved it! It was so in-depth and had some amazing visuals. Did you know that they recently landed a probe on a comet?', "Person A: No, I didn't know that. That's really impressive! I'm looking forward to seeing more of their documentaries. What other movies have you watched recently?", "Person B: I also watched an indie movie that was really touching. It was about a father-son relationship and how they reconcile their differences. It was a beautiful film and I think it's an important story that not many people talk about.", "Person A: That sounds really interesting. I'd love to watch it. Do you think it's available on any streaming services?", "Person B: I'm sure it is. I'll have to look into it. What about you, do you have any movies you want to recommend to me?", '']
+
+      const container = document.querySelector(".chat-container");
+
+      function createChatBox(speaker, message) {
+        const chatBox = document.createElement("div");
+        chatBox.className = `chat-box ${speaker}`;
+
+        const text = document.createTextNode(message);
+        chatBox.appendChild(text);
+
+        return chatBox;
+      }
+
+      data.forEach((line) => {
+        const speaker = line.startsWith("Person A:") ? "person-a" : "person-b";
+        const message = line.replace(/^Person [AB]: /, "").trim();
+        const chatBox = createChatBox(speaker, message);
+        container.appendChild(chatBox);
+      });
+
+      // add a separation line
+      const line = document.createElement("hr");
+      container.appendChild(line);
+    });
+  </script>
+  <title>Chat Dialogue</title>
+</head>
+<body>
+  <div class="chat-container">
+    <!-- The conversation will be dynamically populated here -->
+  </div>
+</body>
+</html>
