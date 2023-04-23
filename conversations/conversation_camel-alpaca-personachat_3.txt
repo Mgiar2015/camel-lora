@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a software engineer who enjoys coding, learning new programming languages, and staying up-to-date with technology trends. They are passionate about problem-solving and applying technology to improve people's lives., Persona B: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts..
+Conversation History:
+A: Hey, let's talk about online learning platforms
+B: Sure, I've heard of Coursera and Udacity.
+A: Coursera has a lot of great courses.
+B: Yeah, I've taken a few of their courses.
+A: I've heard that Udacity has a lot of great courses too.
+B: Yeah, I've taken a few of their courses as well.
+A: I've heard that Coursera has a lot of great courses.
+B: Yeah, I've taken a few of their courses.
+A: I've heard that Udacity has a lot of great courses too.
+B: Yeah, I've taken a few of their courses as well.
+A: I've heard that Coursera has a lot of great courses.

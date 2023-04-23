@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them., Persona B: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts..
+Conversation History:
+A: Hey, let's talk about mental health and self-care
+B: Sure, I've been thinking about that a lot lately.
+A: I'm glad you're thinking about it too.
+B: Yeah, I've been thinking about it a lot lately.
+A: I'm glad you're thinking about it too.
+B: Yeah, I've been thinking about it a lot lately.
+A: I'm glad you're thinking about it too.
+B: Yeah, I've been thinking about it a lot lately.
+A: I'm glad you're thinking about it too.
+B: Yeah, I've been thinking about it a lot lately.
+A: I'm glad you're thinking about it too.
