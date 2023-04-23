@@ -1,0 +1,6 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a movie enthusiast who loves watching and discussing films from various genres. They enjoy analyzing film techniques, storytelling, and cinematography and are always excited to share their opinions and recommendations., Persona B: This person is a freelance graphic designer who enjoys creating visually appealing designs for clients. They have a keen eye for aesthetics and stay updated on the latest design trends. They are passionate about helping businesses and individuals communicate their ideas effectively through visuals..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure, let's start with me. I'm a freelance graphic designer.
+A: That's cool. I'm a movie enthusiast. I love watching and discussing movies from various genres.
+B: That's interesting. I'm a movie enthusiast too. I love watching and discussing movies from various genres.

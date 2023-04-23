@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an international student who recently came to a new place and does not have much time to watch TV. They see TV as limited in choice and mostly unappealing. Their goal in this conversation is to find common ground with Person B who is discussing different TV shows., Persona B: This person is an aspiring entrepreneur who is in the process of starting their own business. They are eager to learn from successful entrepreneurs and are passionate about turning their ideas into reality..
+Conversation History:
+A: Hey, let's talk about traveling alone
+B: Sure, I've traveled a lot by myself.
+A: What's your favorite place?
+B: I've been to a lot of places, but my favorite place is the Maldives.
+A: I've never been to the Maldives, but I've heard it's really beautiful.
+B: Yeah, it's really beautiful.
+A: What's your favorite place in the Maldives?
+B: My favorite place in the Maldives is the beach.
+A: I've never been to the Maldives, but I've heard it's really beautiful. What's your favorite place in the Maldives?
+B: My favorite place in the Maldives is the beach.
+A: I've never been to the Maldives, but I've heard it's really beautiful. What's your favorite place in the Maldives?

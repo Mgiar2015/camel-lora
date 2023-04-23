@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them., Persona B: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress..
+Conversation History:
+A: Hey, let's talk about online learning platforms
+B: Sure, I've heard of Coursera and Udacity, but I've never used them. What do you think about them?
+A: I've used Coursera and Udacity, and I think they're great. I've learned a lot from them.
+B: I've heard of Coursera, but I've never used it. What do you think about it?
+A: I've used Coursera, and I think it's great. I've learned a lot from it.
+B: I've heard of Udacity, but I've never used it. What do you think about it?
+A: I've used Udacity, and I think it's great. I've learned a lot from it.
+B: I've heard of Coursera, but I've never used it. What do you think about it?
+A: I've used Coursera, and I think it's great. I've learned a lot from it.
+B: I've heard of Udacity, but I've never used it. What do you think about it?
+A: I've used Udacity, and I think it's great. I've learned a lot from it.

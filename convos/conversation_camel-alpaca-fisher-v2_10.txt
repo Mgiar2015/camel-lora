@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a pet owner who loves spending time with their furry friends and learning about animal behavior and care. They are knowledgeable about pet health, training, and proper care and enjoy sharing tips and advice with other pet owners., Persona B: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts..
+Conversation History:
+A: Hey, let's talk about virtual reality gaming
+B: Sure, I've been playing a lot of VR games lately.
+A: What's your favorite game?
+B: I'm not sure, I've been playing a lot of different games.
+A: What's your favorite sport?
+B: I'm not sure, I've been watching a lot of different sports.
+A: What's your favorite team?
+B: I'm not sure, I've been watching a lot of different teams.
+A: What's your favorite player?
+B: I'm not sure, I've been watching a lot of different players.
+A: What's your favorite VR game?

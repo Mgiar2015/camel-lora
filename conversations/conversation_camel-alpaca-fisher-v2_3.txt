@@ -1,0 +1,9 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a freelance graphic designer who enjoys creating visually appealing designs for clients. They have a keen eye for aesthetics and stay updated on the latest design trends. They are passionate about helping businesses and individuals communicate their ideas effectively through visuals., Persona B: This person is a foodie who enjoys exploring new restaurants and trying different cuisines. They love sharing their culinary experiences with friends and family and are always on the lookout for the next hidden gem..
+Conversation History:
+A: Hey, let's talk about artificial intelligence
+B: Sure, I've been thinking about it a lot lately.
+A: I've been thinking about it a lot lately too.
+B: I've been thinking about it a lot lately too.
+A: I've been thinking about it a lot lately too. I've been thinking about it a lot lately too.
+B: I've been thinking about it a lot lately too. I've been thinking about it a lot lately too. I've been thinking about it a lot lately too.
+A: I've been thinking about it a lot lately too. I've been thinking about it a lot lately too. I've been thinking about it a lot lately too.

@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a foodie who enjoys exploring new restaurants and trying different cuisines. They love sharing their culinary experiences with friends and family and are always on the lookout for the next hidden gem., Persona B: This person is a retired senior who enjoys spending time with their grandchildren, gardening, and participating in community events. They have a wealth of life experience and enjoy sharing their wisdom with others..
+Conversation History:
+A: Hey, let's talk about public transportation systems
+B: I'm not a big fan of public transportation.
+A: Why not?
+B: It's too crowded.
+A: I'm not a fan of crowds either.
+B: Yeah, me neither.
+A: I'm not a big fan of crowds either.
+B: Yeah, me neither.
+A: I'm not a big fan of crowds either.
+B: Yeah, me neither.
+A: I'm not a big fan of crowds either.

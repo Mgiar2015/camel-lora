@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a pet owner who loves spending time with their furry friends and learning about animal behavior and care. They are knowledgeable about pet health, training, and proper care and enjoy sharing tips and advice with other pet owners., Persona B: This person is an aspiring entrepreneur who is in the process of starting their own business. They are eager to learn from successful entrepreneurs and are passionate about turning their ideas into reality..
+Conversation History:
+A: Hey, let's talk about freelance work and remote jobs
+B: Sure, I've been thinking about starting my own business.
+A: That's awesome! What kind of business are you thinking about starting?
+B: I've been thinking about starting a dog walking business.
+A: That's a great idea! What kind of dog do you have?
+B: I have a golden retriever.
+A: That's a great breed! I have a golden retriever too.
+B: What's your dog's name?
+A: My dog's name is Toby.
+B: That's a cute name!
+A: What's your dog's favorite toy?

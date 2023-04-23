@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a professional musician who plays multiple instruments and has experience performing in various venues. They are passionate about music and love discussing different genres, artists, and techniques with others., Persona B: This person is a movie enthusiast who loves watching and discussing films from various genres. They enjoy analyzing film techniques, storytelling, and cinematography and are always excited to share their opinions and recommendations..
+Conversation History:
+A: Hey, let's talk about baking and pastry arts
+B: Sure, I'd love to!
+A: What's your favorite dessert?
+B: Oh, that's a tough one. I'd have to say cheesecake.
+A: I love cheesecake too! What's your favorite type of cheesecake?
+B: I'm a big fan of New York style cheesecake.
+A: Me too! What's your favorite New York style cheesecake?
+B: Oh, that's a tough one. I'd have to say Junior's cheesecake.
+A: I've never had Junior's cheesecake. What's your favorite Junior's cheesecake?
+B: Oh, that's a tough one. I'd have to say the chocolate cheesecake.
+A: Me too! What's your favorite chocolate cheesecake?

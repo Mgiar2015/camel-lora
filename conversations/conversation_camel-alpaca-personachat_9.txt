@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network., Persona B: This person is an avid traveler who has visited numerous countries and experienced different cultures. They enjoy sharing their travel experiences and advice with others and are always planning their next adventure..
+Conversation History:
+A: Hey, let's talk about sustainable living
+B: Sure, I've been thinking about it a lot lately.
+A: I've been reading about it a lot lately.
+B: I've been thinking about it a lot lately.
+A: I've been reading about it a lot lately.
+B: I've been thinking about it a lot lately.
+A: I've been reading about it a lot lately.
+B: I've been thinking about it a lot lately.
+A: I've been reading about it a lot lately.
+B: I've been thinking about it a lot lately.
+A: I've been reading about it a lot lately.

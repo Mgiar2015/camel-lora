@@ -1,0 +1,8 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them., Persona B: This person is a pet owner who loves spending time with their furry friends and learning about animal behavior and care. They are knowledgeable about pet health, training, and proper care and enjoy sharing tips and advice with other pet owners..
+Conversation History:
+A: Hey, let's talk about healthy eating habits
+B: Sure, I'd love to talk about that.
+A: I've been trying to eat healthier lately.
+B: Me too. I've been trying to eat more vegetables.
+A: I've been trying to eat more vegetables too.
+B: I've been trying to eat more vegetables too.

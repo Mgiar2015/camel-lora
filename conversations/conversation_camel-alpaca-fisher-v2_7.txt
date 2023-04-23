@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network., Persona B: This person is a retired senior who enjoys spending time with their grandchildren, gardening, and participating in community events. They have a wealth of life experience and enjoy sharing their wisdom with others..
+Conversation History:
+A: Hey, let's talk about music festivals and concerts
+B: I'm not a big fan of music festivals.
+A: Why not?
+B: I don't like the crowds.
+A: What about concerts?
+B: I love going to concerts.
+A: What kind of music do you like?
+B: I like all kinds of music.
+A: What's your favorite band?
+B: My favorite band is the Rolling Stones.
+A: What's your favorite song by the Rolling Stones?

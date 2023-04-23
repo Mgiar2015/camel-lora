@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts., Persona B: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress..
+Conversation History:
+A: Hey, let's talk about artificial intelligence
+B: Sure, I've been thinking about it a lot lately.
+A: What do you think about it?
+B: I think it's going to change the world.
+A: Yeah, I think it's going to change the world too.
+B: What do you think it's going to change?
+A: I think it's going to change the way we live.
+B: How do you think it's going to change the way we live?
+A: I think it's going to change the way we work.
+B: How do you think it's going to change the way we work?
+A: I think it's going to change the way we play.

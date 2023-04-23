@@ -1,0 +1,12 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a software engineer who enjoys coding, learning new programming languages, and staying up-to-date with technology trends. They are passionate about problem-solving and applying technology to improve people's lives., Persona B: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure!
+A: I'm a software engineer.
+B: That's cool!
+A: I've been coding for a while now.
+B: That's awesome!
+A: I've been learning a lot of new languages.
+B: That's awesome! What languages are you learning?
+A: I've been learning Python, JavaScript, and Ruby.
+B: That's awesome! I've been learning Python, JavaScript, and Ruby.
