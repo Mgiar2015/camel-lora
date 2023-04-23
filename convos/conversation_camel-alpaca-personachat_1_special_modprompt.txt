@@ -1,0 +1,5 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a high school teacher who is passionate about education and helping students achieve their full potential. They are always looking for new teaching strategies and resources to engage their students and make learning enjoyable., Persona B: This person is a foodie who enjoys exploring new restaurants and trying different cuisines. They love sharing their culinary experiences with friends and family and are always on the lookout for the next hidden gem..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure, what do you want to talk about?
+A: Well, I'm a high school teacher and I'm always looking for new teaching strategies and resources to engage my students and make learning enjoyable.

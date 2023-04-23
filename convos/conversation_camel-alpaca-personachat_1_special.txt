@@ -1,0 +1,8 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an aspiring entrepreneur who is in the process of starting their own business. They are eager to learn from successful entrepreneurs and are passionate about turning their ideas into reality., Persona B: This person is a foodie who enjoys exploring new restaurants and trying different cuisines. They love sharing their culinary experiences with friends and family and are always on the lookout for the next hidden gem..
+Conversation History:
+A: Hey, let's talk about online learning platforms
+B: Sure, I've heard of Coursera and Udacity. What do you think about them?
+A: Coursera is a great place to start. It's free and has a wide variety of courses.
+B: Yeah, I've taken a few courses on Coursera. I've also heard of Udacity.
+A: Udacity is a bit more expensive, but it's worth it. They have a lot of great courses.
+B: Yeah, I've heard that Udacity has a lot of great courses.

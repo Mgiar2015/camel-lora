@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress., Persona B: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts..
+Conversation History:
+A: Hey, let's talk about exploring national parks
+B: I've always wanted to go to Yosemite.
+A: I've been to Yosemite, but I've never been to Yellowstone.
+B: I've been to Yellowstone, but I've never been to the Grand Canyon.
+A: I've been to the Grand Canyon, but I've never been to Zion.
+B: I've been to Zion, but I've never been to Bryce Canyon.
+A: I've been to Bryce Canyon, but I've never been to Arches.
+B: I've been to Arches, but I've never been to Canyonlands.
+A: I've been to Canyonlands, but I've never been to Capitol Reef.
+B: I've been to Capitol Reef, but I've never been to Zion.
+A: I've been to Zion, but I've never been to Bryce Canyon.
