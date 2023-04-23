@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an international student who recently came to a new place and does not have much time to watch TV. They see TV as limited in choice and mostly unappealing. Their goal in this conversation is to find common ground with Person B who is discussing different TV shows., Persona B: This person is an avid reader who loves exploring different genres and discussing books with others. They are part of a book club and enjoy attending author events and book signings. They are always eager to share their latest book recommendations and discuss themes and characters..
+Conversation History:
+A: Hey, let's talk about music festivals and concerts
+B: I'm not a big fan of music festivals.
+A: I'm not a big fan of music festivals either.
+B: I'm not a big fan of music festivals either.
+A: I'm not a big fan of music festivals either.
+B: I'm not a big fan of music festivals either.
+A: I'm not a big fan of music festivals either.
+B: I'm not a big fan of music festivals either.
+A: I'm not a big fan of music festivals either.
+B: I'm not a big fan of music festivals either.
+A: I'm not a big fan of music festivals either.

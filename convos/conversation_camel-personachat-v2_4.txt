@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts., Persona B: This person is a software engineer who enjoys coding, learning new programming languages, and staying up-to-date with technology trends. They are passionate about problem-solving and applying technology to improve people's lives..
+Conversation History:
+A: Hey, let's talk about urban gardening
+B: Sure, I'm a big fan of urban gardening
+A: I've been thinking about starting a garden in my backyard
+B: That's a great idea, I've been thinking about doing the same thing
+A: I'm not sure where to start
+B: I've got a lot of experience with urban gardening
+A: That's great, I'd love to learn from you
+B: I've got a lot of experience with urban gardening.
+A: That's great, I'd love to learn from you.
+A: I've been thinking about starting a garden in my backyard.
+B: That's a great idea, I've been thinking about doing the same thing.

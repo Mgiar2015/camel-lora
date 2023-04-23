@@ -1,0 +1,4 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a freelance graphic designer who enjoys creating visually appealing designs for clients. They have a keen eye for aesthetics and stay updated on the latest design trends. They are passionate about helping businesses and individuals communicate their ideas effectively through visuals., Persona B: This person is an amateur photographer who enjoys capturing moments and experimenting with different photography techniques. They have a keen eye for composition and are passionate about sharing their work with others and learning from fellow photography enthusiasts..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure!

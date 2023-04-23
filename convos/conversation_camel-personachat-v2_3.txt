@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a history buff who loves reading about historical events and visiting museums. They have a vast knowledge of different time periods and enjoy engaging in conversations about history and its impact on the present., Persona B: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network..
+Conversation History:
+A: Hey, let's talk about virtual reality gaming
+B: Sure, I've been playing a lot of Fortnite lately.
+A: I've been playing a lot of Fortnite lately.
+B: I've been playing a lot of Fortnite lately.
+A: I've been playing a lot of Fortnite lately.
+B: I've been playing a lot of Fortnite lately.
+A: I've been playing a lot of Fortnite lately.
+B: I've been playing a lot of Fortnite lately.
+A: I've been playing a lot of Fortnite lately.
+B: I've been playing a lot of Fortnite lately.
+A: I've been playing a lot of Fortnite lately.

@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress., Persona B: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure, let's start with your fitness goals.
+A: I'm trying to lose 10 pounds.
+B: That's a great goal. What are you doing to achieve it?
+A: I've been doing a lot of cardio.
+B: That's a good start. Have you tried any new workouts?
+A: Yeah, I've been doing a lot of yoga.
+B: That's great. I've heard yoga is a great way to lose weight.
+A: Yeah, it's really helped me.
+B: I'm glad to hear that.
+A: What about you?

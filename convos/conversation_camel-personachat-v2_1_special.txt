@@ -1,0 +1,7 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an avid reader who loves exploring different genres and discussing books with others. They are part of a book club and enjoy attending author events and book signings. They are always eager to share their latest book recommendations and discuss themes and characters., Persona B: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them..
+Conversation History:
+A: Hey, let's talk about exploring national parks
+B: I've always wanted to go to Yosemite.
+A: I've been to Yosemite, but I've never been to the Grand Canyon.
+B: I've been to the Grand Canyon, but I've never been to Yellowstone.
+A: I've been to Yellowstone, but I've never been to Yosemite.

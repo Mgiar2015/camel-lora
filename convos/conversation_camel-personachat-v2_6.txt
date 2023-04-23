@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts., Persona B: This person is a history buff who loves reading about historical events and visiting museums. They have a vast knowledge of different time periods and enjoy engaging in conversations about history and its impact on the present..
+Conversation History:
+A: Hey, let's talk about baking and pastry arts
+B: I'm not a big fan of desserts.
+A: I'm not a big fan of desserts either.
+B: I'm not a big fan of desserts either.
+A: I'm not a big fan of desserts either.
+B: I'm not a big fan of desserts either.
+A: I'm not a big fan of desserts either.
+B: I'm not a big fan of desserts either.
+A: I'm not a big fan of desserts either.
+B: I'm not a big fan of desserts either.
+A: I'm not a big fan of desserts either.

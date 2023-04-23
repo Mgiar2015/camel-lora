@@ -1,0 +1,11 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an avid traveler who has visited numerous countries and experienced different cultures. They enjoy sharing their travel experiences and advice with others and are always planning their next adventure., Persona B: This person is a software engineer who enjoys coding, learning new programming languages, and staying up-to-date with technology trends. They are passionate about problem-solving and applying technology to improve people's lives..
+Conversation History:
+A: Hey, let's talk about international cuisine
+B: Sure, I'm hungry
+A: What's your favorite international cuisine?
+B: I'm a big fan of Thai food
+A: I've never tried Thai food before. What's your favorite Thai dish?
+B: My favorite Thai dish is Pad Thai
+A: I've never tried Pad Thai before. What's it like?
+B: Pad Thai is a stir-fried rice noodle dish with chicken, eggs, bean sprouts, and green onions.
+A: That sounds delicious. I'm going to try it next time I'm in Thailand.

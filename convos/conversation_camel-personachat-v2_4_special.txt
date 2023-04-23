@@ -1,0 +1,8 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a movie enthusiast who loves watching and discussing films from various genres. They enjoy analyzing film techniques, storytelling, and cinematography and are always excited to share their opinions and recommendations., Persona B: This person is a foodie who enjoys exploring new restaurants and trying different cuisines. They love sharing their culinary experiences with friends and family and are always on the lookout for the next hidden gem..
+Conversation History:
+A: Hey, let's talk about smart home technology
+B: Sure, I've been thinking about getting a smart thermostat.
+A: I've heard good things about the Nest.
+B: Yeah, I've heard that too.
+A: What do you think?
+B: I'm not sure yet. I've heard that the Nest is a little pricey.
