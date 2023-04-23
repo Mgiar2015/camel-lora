@@ -1,0 +1,8 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network., Persona B: This person is a high school teacher who is passionate about education and helping students achieve their full potential. They are always looking for new teaching strategies and resources to engage their students and make learning enjoyable..
+Conversation History:
+A: Hey, let's talk about public transportation systems
+B: Sure, I'd love to talk about public transportation systems
+A: I've been thinking a lot about public transportation systems lately.
+B: That's interesting. What's been on your mind?
+A: Well, I've been thinking about how public transportation systems can be improved.
+B: That's interesting. What do you think can be improved?

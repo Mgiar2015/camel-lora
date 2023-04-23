@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress., Persona B: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them..
+Conversation History:
+A: Hey, let's talk about traveling alone
+B: I've never traveled alone, but I've always wanted to.
+A: I've traveled alone a few times, but I've never been to Europe.
+B: I've never been to Europe, but I've always wanted to.
+A: I've never been to Europe, but I've always wanted to.
+B: I've never been to Europe, but I've always wanted to.
+A: I've never been to Europe, but I've always wanted to.
+B: I've never been to Europe, but I've always wanted to.
+A: I've never been to Europe, but I've always wanted to.
+B: I've never been to Europe, but I've always wanted to.
+A: I've never been to Europe, but I've always wanted to.

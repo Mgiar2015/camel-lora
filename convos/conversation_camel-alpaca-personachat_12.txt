@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an amateur photographer who enjoys capturing moments and experimenting with different photography techniques. They have a keen eye for composition and are passionate about sharing their work with others and learning from fellow photography enthusiasts., Persona B: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts..
+Conversation History:
+A: Hey, let's talk about healthy eating habits
+B: Sure, I've been trying to eat healthier lately.
+A: What's your favorite healthy snack?
+B: I like to make my own trail mix.
+A: What's your favorite ingredient to add?
+B: I like to add nuts and dried fruit.
+A: What's your favorite nut?
+B: I like almonds.
+A: What's your favorite dried fruit?
+B: I like raisins.
+A: What's your favorite way to eat trail mix?

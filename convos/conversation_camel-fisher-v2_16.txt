@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a high school teacher who is passionate about education and helping students achieve their full potential. They are always looking for new teaching strategies and resources to engage their students and make learning enjoyable., Persona B: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress..
+Conversation History:
+A: Hey, let's talk about music festivals and concerts
+B: I'm not a big fan of music festivals, but I love going to concerts.
+A: What's your favorite band?
+B: I'm a big fan of the Foo Fighters.
+A: I've never heard of them.
+B: They're a rock band from the 90s.
+A: What's your favorite Foo Fighters song?
+B: My favorite song is Everlong.
+A: I've never heard of that song.
+B: It's one of their most popular songs.
+A: What's your favorite Foo Fighters album?

@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a professional musician who plays multiple instruments and has experience performing in various venues. They are passionate about music and love discussing different genres, artists, and techniques with others., Persona B: This person is an amateur photographer who enjoys capturing moments and experimenting with different photography techniques. They have a keen eye for composition and are passionate about sharing their work with others and learning from fellow photography enthusiasts..
+Conversation History:
+A: Hey, let's talk about traveling alone
+B: Sure, I've always wanted to go to Europe.
+A: I've never been to Europe, but I've always wanted to go.
+B: I've never been to Europe either, but I've always wanted to go.
+A: I've always wanted to go to Europe.
+B: I've always wanted to go to Europe.
+A: I've always wanted to go to Europe.
+B: I've always wanted to go to Europe.
+A: I've always wanted to go to Europe.
+B: I've always wanted to go to Europe.
+A: I've always wanted to go to Europe.

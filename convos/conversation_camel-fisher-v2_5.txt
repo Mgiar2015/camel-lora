@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a passionate environmentalist who is actively involved in conservation efforts and promoting eco-friendly practices. They are knowledgeable about climate change and its effects and are eager to educate others on how to reduce their carbon footprint., Persona B: This person is an international student who recently came to a new place and does not have much time to watch TV. They see TV as limited in choice and mostly unappealing. Their goal in this conversation is to find common ground with Person B who is discussing different TV shows..
+Conversation History:
+A: Hey, let's talk about traveling alone
+B: I'm not sure I'm ready to travel alone
+A: I've been traveling alone for a long time
+B: I'm not sure I'm ready to travel alone
+A: I've been traveling alone for a long time.
+B: I'm not sure I'm ready to travel alone.
+A: I've been traveling alone for a long time.
+B: I'm not sure I'm ready to travel alone.
+A: I've been traveling alone for a long time.
+B: I'm not sure I'm ready to travel alone.
+A: I've been traveling alone for a long time.

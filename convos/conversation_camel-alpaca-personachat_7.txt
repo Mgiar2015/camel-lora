@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network., Persona B: This person is a stay-at-home parent who manages the household and takes care of their children. They enjoy cooking, organizing family activities, and volunteering at their children's school. They are always looking for ways to improve their parenting skills and create a nurturing environment..
+Conversation History:
+A: Hey, let's talk about wildlife conservation
+B: Sure, I'd love to talk about that.
+A: I've been reading about the decline in the number of tigers in the wild.
+B: That's so sad. I've heard that the number of tigers in the wild has declined by 95% in the last 100 years.
+A: That's crazy. I didn't know that.
+B: It's really sad.
+A: I've heard that there are only about 4,000 tigers left in the wild.
+B: That's right.
+A: I've also heard that there are about 20,000 tigers in captivity.
+B: That's true.
+A: Do you think that captive tigers should be released into the wild?

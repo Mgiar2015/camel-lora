@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a pet owner who loves spending time with their furry friends and learning about animal behavior and care. They are knowledgeable about pet health, training, and proper care and enjoy sharing tips and advice with other pet owners., Persona B: This person is a software engineer who enjoys coding, learning new programming languages, and staying up-to-date with technology trends. They are passionate about problem-solving and applying technology to improve people's lives..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure, what do you want to talk about?
+A: I'm a pet owner and I love spending time with my furry friends.
+B: That's cool. What kind of pets do you have?
+A: I have a dog and a cat.
+B: What kind of dog?
+A: I have a golden retriever.
+B: That's cool. What's his name?
+A: His name is Rex.
+B: That's a cool name. What's your cat's name?
+A: His name is Tiger.

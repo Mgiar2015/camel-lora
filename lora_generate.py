@@ -1,12 +1,6 @@
 import sys
 import os
 import random
-"""
-python generate.py \
-    --load_8bit \
-    --base_model 'decapoda-research/llama-7b-hf' \
-    --lora_weights 'tloen/alpaca-lora-7b'
-"""
 import torch
 if torch.cuda.is_available():
     device = "cuda"
@@ -20,10 +14,8 @@ from utils.prompter import Prompter
 
 load_8bit: bool = False
 base_model: str = "decapoda-research/llama-7b-hf"
-lora_weights: str = "camel-alpaca-personachat"
+
 prompt_template: str = "alpaca"  # The prompt template to use, will default to alpaca
-# person_a = "They live in New Jersey, loves to cook, and works as a yoga trainer for clients in new york city. They are 29 years old, a woman and get really excited by travel"
-# person_b = "They live in San Francisco, loves to hike, and works as a software engineer at Microsoft. He is 26 years old, a man and excited about artificial intelligence"
 persona_list = [
     "This person is an international student who recently came to a new place and does not have much time to watch TV. They see TV as limited in choice and mostly unappealing. Their goal in this conversation is to find common ground with Person B who is discussing different TV shows.",
     "This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them.",
@@ -63,41 +55,16 @@ list_of_topics = [
     "music festivals and concerts",
     "baking and pastry arts"
 ]
-convo=True
-temperature=0.8
-top_p=0.6
-top_k=40
-num_beams=2
-max_new_tokens=150
+temperature: float = 0.8
+top_p: float = 0.6
+top_k: int = 40
+num_beams: int = 2
+max_new_tokens: int = 150
 
 prompter = Prompter(prompt_template)
 tokenizer = LlamaTokenizer.from_pretrained(base_model)
-if device == "cuda":
-    model = LlamaForCausalLM.from_pretrained(
-        base_model,
-        load_in_8bit=load_8bit,
-        torch_dtype=torch.float16,
-        device_map="auto",
-    )
-    model = PeftModel.from_pretrained(
-        model,
-        lora_weights,
-        torch_dtype=torch.float16,
-    )
 
-# unwind broken decapoda-research config
-model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
-model.config.bos_token_id = 1
-model.config.eos_token_id = 2
-
-if not load_8bit:
-    model.half()  # seems to fix bugs for some users.
-
-model.eval()
-if torch.__version__ >= "2" and sys.platform != "win32":
-    model = torch.compile(model)
-
-def generate_conversation(convo_num):
+def generate_conversation(convo_num, model, lora_weights, temperature, top_p):
     p_a = random.choice(persona_list)
     p_b = random.choice(persona_list)
 
@@ -108,20 +75,25 @@ def generate_conversation(convo_num):
     print(f"Person B: {p_b}")
     # conversation_history = input("Give the history (optional), e.g. A: Hey how are you doing? B: I'm great, how are you?")
     topic = random.choice(list_of_topics)
-    conversation_history = f"A: Hey, let's talk about {topic}" #if (conversation_history is None or len(conversation_history) < 4) else conversation_history
-    print(f"A: Hey, let's talk about {topic}" if (conversation_history is None or len(conversation_history) < 4) else conversation_history)
+    conversation_history = f"A: Hey, let's talk about ourselves" #if (conversation_history is None or len(conversation_history) < 4) else conversation_history
+    print(f"A: Hey, let's talk about ourselves" if (conversation_history is None or len(conversation_history) < 4) else conversation_history)
     prompt = f"Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: {p_a}, Persona B: {p_b}.\nConversation History:\n{conversation_history}\n"
+    
+    temp = temperature
+    topp = top_p
+    
     for i in range(10):
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
         generation_config = GenerationConfig(
-            temperature=temperature,
-            top_p=top_p,
+            temperature=temp,
+            top_p=topp,
             top_k=top_k,
             num_beams=num_beams,
         )
-        temperature = 0.8
-        top_p = 0.6
+
+        temp = 0.8
+        topp = 0.6
 
         with torch.no_grad():
             generation_output = model.generate(
@@ -143,23 +115,54 @@ def generate_conversation(convo_num):
         match = re.search(pattern, output, re.MULTILINE)
         if match:
             utterance = match.group()
-            if len(utterance) < 200 and utterance not in prompt:
+            if len(utterance) < 200 and str(utterance[3:]+'\n') not in prompt:
                 prompt += f"{utterance}\n"
                 print(utterance)
             else:
                 # generate a random number between 0 and 1 (inclusive) 1 d.p.
-                temperature = float(random.randint(0, 10)/10)
-                top_p       = float(random.randint(0, 10)/10)
+                temp       = float(random.randint(0, 10)/10)
+                topp       = float(random.randint(0, 10)/10)
         else:
             breakpoint()
             print("doesn't start with the prompt")
         
         # save the conversation
-    with open(f"convos/conversation_{lora_weights}_{convo_num}.txt", "a") as f:
+    with open(f"convos/conversation_{lora_weights}_{convo_num}_special_modprompt.txt", "a") as f:
         f.write(prompt)
 
-print('\n\n\n\n')
-for i in range(10):
-    print(f"============ CONVO {i} - weights: {lora_weights} ================")
-    generate_conversation(i)
-    print(f"=======================================")
+def run_exp(lora_weights):
+    if device == "cuda":
+        model = LlamaForCausalLM.from_pretrained(
+            base_model,
+            load_in_8bit=load_8bit,
+            torch_dtype=torch.float16,
+            device_map="auto",
+        )
+        model = PeftModel.from_pretrained(
+            model,
+            lora_weights,
+            torch_dtype=torch.float16,
+        )
+
+        # unwind broken decapoda-research config
+        model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
+        model.config.bos_token_id = 1
+        model.config.eos_token_id = 2
+
+    if not load_8bit:
+        model.half()  # seems to fix bugs for some users.
+
+    model.eval()
+    if torch.__version__ >= "2" and sys.platform != "win32":
+        model = torch.compile(model)
+
+    print('\n\n\n\n')
+    for i in range(5):
+        print(f"============ CONVO {i} - weights: {lora_weights} - special, mod prompt ================")
+        generate_conversation(i, model, lora_weights, temperature, top_p)
+        print(f"=======================================")
+
+
+lw = ["camel-alpaca-fisher-v2", "camel-fisher-v2", "camel-alpaca-personachat", "camel-personachat-v2"]
+for lora_weights in lw:
+    run_exp(lora_weights)

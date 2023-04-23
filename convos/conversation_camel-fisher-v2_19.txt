@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is an amateur photographer who enjoys capturing moments and experimenting with different photography techniques. They have a keen eye for composition and are passionate about sharing their work with others and learning from fellow photography enthusiasts., Persona B: This person is an aspiring entrepreneur who is in the process of starting their own business. They are eager to learn from successful entrepreneurs and are passionate about turning their ideas into reality..
+Conversation History:
+A: Hey, let's talk about international cuisine
+B: Sure, I'd love to
+A: What's your favorite international cuisine?
+B: I'm a big fan of Thai food
+A: Me too! I love the spicy flavors.
+B: I'm not a big fan of spicy food.
+A: Oh, that's too bad.
+B: Yeah, I'm more of a sushi person.
+A: I'm not a big fan of sushi.
+B: Oh, that's too bad.
+A: Yeah, I'm more of a pasta person.

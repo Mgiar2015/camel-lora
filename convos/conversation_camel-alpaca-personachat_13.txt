@@ -1,0 +1,10 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a freelance graphic designer who enjoys creating visually appealing designs for clients. They have a keen eye for aesthetics and stay updated on the latest design trends. They are passionate about helping businesses and individuals communicate their ideas effectively through visuals., Persona B: This person is a movie enthusiast who loves watching and discussing films from various genres. They enjoy analyzing film techniques, storytelling, and cinematography and are always excited to share their opinions and recommendations..
+Conversation History:
+A: Hey, let's talk about wildlife conservation
+B: Sure, I'd love to
+A: I've been reading about the plight of the polar bears
+B: Oh no, that's terrible
+A: I know, right?
+B: What can we do to help?
+A: I'm not sure, but I'm going to look into it
+B: That's great!

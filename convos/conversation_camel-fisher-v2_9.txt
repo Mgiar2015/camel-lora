@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a professional musician who plays multiple instruments and has experience performing in various venues. They are passionate about music and love discussing different genres, artists, and techniques with others., Persona B: This person is a pet owner who loves spending time with their furry friends and learning about animal behavior and care. They are knowledgeable about pet health, training, and proper care and enjoy sharing tips and advice with other pet owners..
+Conversation History:
+A: Hey, let's talk about music festivals and concerts
+B: Sure, I've been to a few
+A: Which ones?
+B: I've been to Coachella, Lollapalooza, and Bonnaroo
+A: I've never been to any of those
+B: You should go to Coachella, it's amazing
+A: I've heard it's really crowded
+B: It is, but it's worth it
+A: What's the best part about Coachella?
+B: The music, of course!
+A: What's your favorite band?

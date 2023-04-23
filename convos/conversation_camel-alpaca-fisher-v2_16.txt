@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a college student who enjoys celebrating Thanksgiving, but wishes there were more holidays that focused on thanksgiving and being together, rather than getting gifts. They also have experience with different religious holidays and how schools accommodate for them., Persona B: This person is an avid traveler who has visited numerous countries and experienced different cultures. They enjoy sharing their travel experiences and advice with others and are always planning their next adventure..
+Conversation History:
+A: Hey, let's talk about smart home technology
+B: Sure, I've been thinking about getting a smart thermostat.
+A: I've been thinking about getting a smart doorbell.
+B: I've been thinking about getting a smart door lock.
+A: I've been thinking about getting a smart security camera.
+B: I've been thinking about getting a smart security system.
+A: I've been thinking about getting a smart lighting system.
+B: I've been thinking about getting a smart lighting system.
+A: I've been thinking about getting a smart lighting system.
+B: I've been thinking about getting a smart lighting system.
+A: I've been thinking about getting a smart lighting system.

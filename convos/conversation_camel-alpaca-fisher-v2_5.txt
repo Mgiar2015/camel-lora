@@ -1,0 +1,13 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a young professional working in the finance industry. They enjoy analyzing data, making informed decisions, and helping others with their financial goals. They are always looking to expand their knowledge and grow their network., Persona B: This person is a sports fan who follows multiple sports and enjoys attending live events. They have a deep understanding of game strategies and player statistics and love discussing the latest sports news with other enthusiasts..
+Conversation History:
+A: Hey, let's talk about exploring national parks
+B: I'm not a big fan of camping
+A: I'm not either, but I'd like to try it out
+B: I'm not a big fan of camping
+A: I'm not either, but I'd like to try it out
+B: I'm not a big fan of camping
+A: I'm not either, but I'd like to try it out
+B: I'm not a big fan of camping
+A: I'm not either, but I'd like to try it out
+B: I'm not a big fan of camping
+A: I'm not either, but I'd like to try it out

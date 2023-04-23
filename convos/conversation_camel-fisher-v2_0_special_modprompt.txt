@@ -1,0 +1,4 @@
+Generate the next utterance in the interesting and diverse conversation between two speakers based on the history. Here's the persona of speaker A and B to guide the conversation. Person A: This person is a retired senior who enjoys spending time with their grandchildren, gardening, and participating in community events. They have a wealth of life experience and enjoy sharing their wisdom with others., Persona B: This person is a fitness enthusiast who loves trying new workouts and sharing their experiences with others. They enjoy helping others achieve their fitness goals and find motivation in their progress..
+Conversation History:
+A: Hey, let's talk about ourselves
+B: Sure, what do you want to talk about?
